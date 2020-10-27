@@ -17,7 +17,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" crossorigin="anonymous" />
 
 		   
-	   <div data-toggle="active"  class="test">hhh
+	   <div data-hover="active"  class="test">hhh
 		   <!--<div  class="test">click me</div><br/>-->
 	   </div>
 
@@ -27,7 +27,7 @@
 				<p>Here is div-01 i should get class hidden</p>
 				<div>
 				  <div class="vdom-item" >some content1</div> 
-				  <span data-toggle="test" data-toggle_closest=".vdom-item"><i class="fa fa-caret-down"></i></span>
+				  <span data-hover="test" data-hover_closest=".vdom-item"><i class="fa fa-caret-down"></i></span>
 				</div>
 				 <div class="vdom-item" >some content2</div>
 			</div>
@@ -36,16 +36,14 @@
 		</article>
 		<br>
 		<hr>
-		<div class="vdom-item" data-toggle="active" data-toggle_element="article > div">some content</div>
+		<div class="vdom-item" data-hover="active" data-hover_element="article > div">some content</div>
 		<br>
 		<hr> 
-		<div class="vdom-item" data-toggle_attribute='class' data-toggle="active" data-toggle_element=".vdom-item">
+		<div class="vdom-item" data-hover_attribute='class' data-hover="active" data-hover_element=".vdom-item">
 			click for active
 		</div>
-	   <br>
-	   <hr>
-	   TEST HERE
-		<div class="vdom-item" id="hey" data-test="" data-toggle_attribute='id' data-toggle="active, other, hi, jean">
+		
+		<div class="vdom-item" id="hey" data-test="" data-hover_attribute='data-test' data-hover="active, other, hi, jean">
 			some content
 		</div>
 	</body>

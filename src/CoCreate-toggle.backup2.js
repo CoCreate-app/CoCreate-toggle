@@ -6,10 +6,21 @@ const CoCreateToggle = {
 	},
 	
 	initElement: function(container, prefix) {
-		this.__initElementEvent(container || document, prefix)
+		let mainContainer = container || document;
+		const self = this;
+		if (!mainContainer.querySelectorAll) {
+			return;
+		}
+		
+		let elements = mainContainer.querySelectorAll(`[data-${prefix}]`);
+		if (elements.length === 0 && mainContainer != document && mainContainer.hasAttributes(`[data-${prefix}]`)) {
+			elements = [mainContainer];
+		}
+		
+		elements.forEach((element) => self.__initElementEvent(element, prefix));
 	},
 	
-	__initElementEvent: function(mainContainer, prefix) {
+	__initElementEvent: function(element, prefix) {
 		
 		const self = this;
 		let eventNames = []; 
@@ -18,11 +29,8 @@ const CoCreateToggle = {
 		if (prefix === 'hover') eventNames = ['mouseover', 'mouseout'];
 	
 		eventNames.forEach((event_name) => {
-			mainContainer.addEventListener(event_name, function(event) {
-				const target = event.target.closest(`[data-${prefix}]`);
-				if(target) {
-					self.__changeElementStatus(target, prefix)
-				}
+			element.addEventListener(event_name, function() {
+				self.__changeElementStatus(element, prefix)
 			});
 		})
 	},
