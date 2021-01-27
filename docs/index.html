@@ -45,9 +45,9 @@
             <div id="toggle-section" class="display:flex flex-wrap:wrap">
                 <div class="flex-grow:1 min-width:300px width:50% padding:0px_10px margin:20px_0px">
                 <h2 class="border-bottom:1px_solid_lightgrey padding:5px_0px">Install</h2>
-                <pre><code class="language-javascript">npm install cocreate-boilerplate</code></pre>
+                <pre><code class="language-javascript">npm install cocreate-toggle</code></pre>
                 <p class="padding:10px_0px">Or you can use cdn link:</p>
-                <pre><code class="language-javascript">https://cdn.cocreate.app/CoCreate-boilerplate.min.js</code></pre>
+                <pre><code class="language-javascript">https://cdn.cocreate.app/CoCreate-toggle.min.js</code></pre>
 
                 <h2 class="border-bottom:1px_solid_lightgrey margin-top:80px padding:5px_0px">Usage</h2>
                     <div class="">
@@ -72,7 +72,7 @@
 &#x3C;div class=&#x22;vdom-item&#x22; data-toggle_attribute=&#x27;class&#x27; data-toggle=&#x22;active&#x22; data-toggle_closest=&#x22;article &#x3E; div&#x22;&#x3E;some content&#x3C;/div&#x3E;
 &#x3C;br&#x3E;
 &#x3C;hr&#x3E; 
-&#x3C;div class=&#x22;vdom-item&#x22; data-toggle_attribute=&#x27;class&#x27; data-toggle=&#x22;active&#x22; data-toggle_element=&#x22;.vdom-item&#x22;&#x3E;click for active&#x3C;/div&#x3E;
+&#x3C;div class=&#x22;vdom-item&#x22; data-toggle_attribute=&#x27;class&#x27; data-toggle=&#x22;active&#x22; data-toggle_target=&#x22;.vdom-item&#x22;&#x3E;click for active&#x3C;/div&#x3E;
 &#x3C;br&#x3E;
 &#x3C;hr&#x3E;
 &#x3C;div class=&#x22;vdom-item&#x22; id=&#x22;hey&#x22; data-test=&#x22;&#x22; data-toggle_attribute=&#x27;data-test&#x27; data-toggle=&#x22;active, other, hi, jean&#x22; &#x3E;some content&#x3C;/div&#x3E;
@@ -92,7 +92,7 @@
                             <p>Add or remove values, by default the class attribute is used</p>
                         </li>
                         <li class="padding:15px_0px border-bottom:1px_solid_lightgrey">
-                            <h4><span>toggle_element</span> <span class="cocreate-badge success">string</span> <span class="cocreate-badge warning">optional</span></h4>
+                            <h4><span>toggle_target</span> <span class="cocreate-badge success">string</span> <span class="cocreate-badge warning">optional</span></h4>
                             <p>Apply toggle functionality to a specific element</p>
                         </li>
                         <li class="padding:15px_0px border-bottom:1px_solid_lightgrey">

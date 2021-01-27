@@ -35,7 +35,7 @@ const CoCreateToggle = {
 		}
 		
 		let target_attribute = element.dataset[`${prefix}_attribute`] || 'class';
-		let targetSelector = element.dataset[`${prefix}_element`];
+		let targetSelector = element.dataset[`${prefix}_target`];
 		let targetClosest = element.dataset[`${prefix}_closest`];
 		
 		let targetElements = [element]
@@ -87,3 +87,5 @@ const CoCreateToggle = {
 }
 
 CoCreateToggle.init();
+
+export default CoCreateToggle;
