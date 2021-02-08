@@ -9,7 +9,7 @@ module.exports = {
     sources: [{
             path: "./docs/index.html",
             collection: "files",
-            document_id: "",
+            document_id: "60209e123c260207bf49cace",
             key: "html",
             data:{
                 name: "Toggle Doc",
@@ -19,10 +19,10 @@ module.exports = {
    
     crud: [{
             collection: "routes",
-            document_id: "",
+            document_id: "60209e123c260207bf49cacd",
             data:{
                 collection: "files",
-                document_id: "",
+                document_id: "60209e123c260207bf49cace",
                 name: "html",
                 domains: ["cocreate.app", "server.cocreate.app", "ws.cocreate.app"],
                 route: "/docs/toggle",
