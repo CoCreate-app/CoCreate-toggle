@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/CoCreate-app/CoCreate-toggle/compare/v1.0.0...v1.0.1) (2021-03-29)
+
+
+### Bug Fixes
+
+* Package Paths ([a512613](https://github.com/CoCreate-app/CoCreate-toggle/commit/a5126139d5db7793c8f88c4ca3d00ddecb3c75d9))
+
 # 1.0.0 (2021-03-29)
 
 
