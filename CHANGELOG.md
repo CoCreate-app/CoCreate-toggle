@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/CoCreate-app/CoCreate-toggle/compare/v1.0.2...v1.0.3) (2021-04-23)
+
+
+### Bug Fixes
+
+* readme and documentation. Removed securitykeys ([e3c89df](https://github.com/CoCreate-app/CoCreate-toggle/commit/e3c89df2322aa2c43d1bf468223ca90a059c12c1))
+
 ## [1.0.2](https://github.com/CoCreate-app/CoCreate-toggle/compare/v1.0.1...v1.0.2) (2021-04-19)
 
 
