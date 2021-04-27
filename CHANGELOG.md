@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/CoCreate-app/CoCreate-toggle/compare/v1.0.4...v1.0.5) (2021-04-27)
+
+
+### Bug Fixes
+
+* add host in docs ([99e0d1b](https://github.com/CoCreate-app/CoCreate-toggle/commit/99e0d1b5cff4d3ea774cbca0aa3bbfe9cde3cfe7))
+
 ## [1.0.4](https://github.com/CoCreate-app/CoCreate-toggle/compare/v1.0.3...v1.0.4) (2021-04-27)
 
 
