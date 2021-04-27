@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/CoCreate-app/CoCreate-toggle/compare/v1.0.3...v1.0.4) (2021-04-27)
+
+
+### Bug Fixes
+
+* Update to readme, demo, added cdn scripts ([154a31e](https://github.com/CoCreate-app/CoCreate-toggle/commit/154a31ebc6312120291cae718674b48dddf05269))
+
 ## [1.0.3](https://github.com/CoCreate-app/CoCreate-toggle/compare/v1.0.2...v1.0.3) (2021-04-23)
 
 
