@@ -10,7 +10,7 @@ module.exports = {
             "path": "./docs/index.html",
             "collection": "files",
             "document_id": "60209e123c260207bf49cace",
-            "key": "html",
+            "key": "src",
             "data":{
                 "name": "toggle Doc",
                 "domains": ["cocreate.app", "server.cocreate.app", "ws.cocreate.app"],
