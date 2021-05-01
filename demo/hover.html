@@ -1,22 +1,24 @@
 <!DOCTYPE html>
 <html>
-  <head>
-	<style type="text/css">
-	  .test{background:red}
-	  .new{background:yellow}
-	  .active{
-		background-color:blue;
-	  }
-	  .hidden {
-	  	display: none;
-	  }
-	</style>
-  </head>
+	<head>
+		<title>Hover | CoCreateJS</title>
+		
+		<!-- Font Awesome -->
+  		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" crossorigin="anonymous" />
+  		<!-- Custom CSS -->
+		<style type="text/css">
+			.test{background:red}
+			.new{background:yellow}
+			.active{
+			background-color:blue;
+			}
+			.hidden {
+			  display: none;
+			}
+		</style>
+	</head>
 	<body>
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" crossorigin="anonymous" />
-
-		   
+ 
 	   <div data-hover="active"  class="test">hhh
 		   <!--<div  class="test">click me</div><br/>-->
 	   </div>
@@ -46,17 +48,16 @@
 		<div class="vdom-item" id="hey" data-test="" data-hover_attribute='data-test' data-hover="active, other, hi, jean">
 			some content
 		</div>
-	</body>
+	
 
-	<script>
-	  var config = {
-		apiKey: 'c2b08663-06e3-440c-ef6f-13978b42883a',
-				organization_Id: '5de0387b12e200ea63204d6c'
-	  }
-	</script>
-  
-	  <!--<script src="../../CoCreate-domEditor/src/domEditor.js"></script>-->
-	  <script src="../dist/CoCreate-toggle.js"></script>
-	
-	
+		<script>
+		  var config = {
+			apiKey: 'c2b08663-06e3-440c-ef6f-13978b42883a',
+					organization_Id: '5de0387b12e200ea63204d6c'
+		  }
+		</script>
+
+		<!-- CoCreate JS CDN -->
+		<script src="https://cdn.cocreate.app/toggle/latest/CoCreate-toggle.min.js" ></script>
+	</body>
 </html>
