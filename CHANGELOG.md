@@ -1,3 +1,10 @@
+## [1.0.7](https://github.com/CoCreate-app/CoCreate-toggle/compare/v1.0.6...v1.0.7) (2021-06-16)
+
+
+### Bug Fixes
+
+* added header for seo ([bcc1571](https://github.com/CoCreate-app/CoCreate-toggle/commit/bcc1571528c9cfd6ba0ed6ee3d0e3953acd4b34d))
+
 ## [1.0.6](https://github.com/CoCreate-app/CoCreate-toggle/compare/v1.0.5...v1.0.6) (2021-05-08)
 
 
