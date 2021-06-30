@@ -1,3 +1,10 @@
+## [1.0.11](https://github.com/CoCreate-app/CoCreate-toggle/compare/v1.0.10...v1.0.11) (2021-06-30)
+
+
+### Bug Fixes
+
+* automated and manual workflows ([9fa39b6](https://github.com/CoCreate-app/CoCreate-toggle/commit/9fa39b6d15a1e769cf04ec3b20b1430a139dff94))
+
 ## [1.0.10](https://github.com/CoCreate-app/CoCreate-toggle/compare/v1.0.9...v1.0.10) (2021-06-25)
 
 
