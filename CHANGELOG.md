@@ -1,3 +1,10 @@
+## [1.0.14](https://github.com/CoCreate-app/CoCreate-toggle/compare/v1.0.13...v1.0.14) (2021-07-10)
+
+
+### Bug Fixes
+
+* gitignore all logs ([ae0a4ea](https://github.com/CoCreate-app/CoCreate-toggle/commit/ae0a4eafe3262490926c29140dd942497e7bd67c))
+
 ## [1.0.13](https://github.com/CoCreate-app/CoCreate-toggle/compare/v1.0.12...v1.0.13) (2021-07-07)
 
 
